@@ -11,7 +11,7 @@ public class GuessingGame {
         int response;
         do {
             play();
-            response = JOptionPane.showConfirmDialog(null,"Do you wanna play again?",
+            response = JOptionPane.showConfirmDialog(null,"Do you want to play again?",
                     null,JOptionPane.YES_NO_OPTION);
         } while (response == 0); // 0 for YES and 1 for NO
     }
